@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/programmers/01132022/01132022.iml" filepath="$PROJECT_DIR$/programmers/01132022/01132022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programmers/01142022/01142022.iml" filepath="$PROJECT_DIR$/programmers/01142022/01142022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programmers/02092022/02092022.iml" filepath="$PROJECT_DIR$/programmers/02092022/02092022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/chores.iml" filepath="$PROJECT_DIR$/.idea/chores.iml" />
+    </modules>
+  </component>
+</project>
