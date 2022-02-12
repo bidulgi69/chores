@@ -1,11 +1,13 @@
-import 더맵게.Solution;
+import K번째수.Solution;
+
+import java.util.Arrays;
 
 public class MainRunner {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        //[1, 2, 3, 9, 10, 12]	7	2
-        int[] scoville = { 1, 2, 3, 9, 10, 12 };
-        int K = 7;
-        System.out.printf("Mixed: %d", solution.solution(scoville, K));
+        //[1, 5, 2, 6, 3, 7, 4]	[[2, 5, 3], [4, 4, 1], [1, 7, 3]]	[5, 6, 3]
+        int[] array = {1, 5, 2, 6, 3, 7, 4};
+        int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+        System.out.printf("Mixed: %s", Arrays.toString(solution.solution(array, commands)));
     }
 }
