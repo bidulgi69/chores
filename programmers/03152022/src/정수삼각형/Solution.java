@@ -1,3 +1,5 @@
+package 정수삼각형;
+
 import java.util.Arrays;
 
 public class Solution {

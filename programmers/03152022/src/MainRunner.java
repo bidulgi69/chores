@@ -1,3 +1,5 @@
+import 정수삼각형.Solution;
+
 public class MainRunner {
     public static void main(String[] args) {
         Solution solution = new Solution();
