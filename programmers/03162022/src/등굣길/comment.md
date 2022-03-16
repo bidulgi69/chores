@@ -1,6 +1,7 @@
 최단 경로를 구하는 문제이다. 
 
 <img src="https://user-images.githubusercontent.com/17774927/158537683-9dd67ca1-323b-409f-bb11-15b573f394d5.png">
+출처(https://bhsmath.tistory.com/154)
 
 물에 잠긴 지역이 2개 이상일 경우가 존재하기 때문에, 위 그림처럼 계산하는 방식을 선택했다.
 
