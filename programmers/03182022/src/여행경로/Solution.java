@@ -7,11 +7,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class Solution {
     public String[] solution(String[][] tickets) {
         String[] answer = new String[tickets.length + 1];
-        Arrays.sort(tickets, (o1, o2) -> {
-            if (o1[0].equals(o2[0])) {
-                return o1[1].compareTo(o2[1]);
-            } else return o1[0].compareTo(o2[0]);
-        });
         return dfs("ICN", tickets, answer, 0);
     }
 
