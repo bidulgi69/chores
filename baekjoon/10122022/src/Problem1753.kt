@@ -1,7 +1,7 @@
 import java.io.StreamTokenizer
 import java.util.PriorityQueue
 
-const val INF = 10000000
+private const val INF = 10000000
 
 fun main() = with(StreamTokenizer(System.`in`.bufferedReader())) {
     nextToken(); val v = nval.toInt()
@@ -18,7 +18,7 @@ fun main() = with(StreamTokenizer(System.`in`.bufferedReader())) {
         vertexes.add(Pair(nval.toInt(), y))
         graph[x] = vertexes
     }
-    
+
     val distance = Array(v) { INF }
     distance[start] = 0
     val pq = PriorityQueue<Pair<Int, Int>> { p1, p2 ->
